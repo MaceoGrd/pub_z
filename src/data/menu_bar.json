@@ -1,0 +1,201 @@
+{
+  "Les Bières": {
+    "À la pression": {
+      "format": [
+        "25cl",
+        "50cl"
+      ],
+      "rows": [
+        {
+          "Nom": "Blonde",
+          "50cl": 6.5,
+          "25cl": 3.5
+        },
+        {
+          "Nom": "Blanche",
+          "50cl": 8.0,
+          "25cl": 4.5
+        },
+        {
+          "Nom": "Ambrée",
+          "50cl": 8.0,
+          "25cl": 4.5
+        },
+        {
+          "Nom": "IPA",
+          "50cl": 8.0,
+          "25cl": 4.5
+        },
+        {
+          "Nom": "Picon Bière",
+          "50cl": 7.0,
+          "25cl": 4.3
+        },
+        {
+          "Nom": "Panaché",
+          "50cl": 6.5,
+          "25cl": 3.5
+        },
+        {
+          "Nom": "Monaco",
+          "50cl": 7.0,
+          "25cl": 3.8
+        },
+        {
+          "Nom": "+ Sirop",
+          "50cl": 7.0,
+          "25cl": 3.8
+        }
+      ]
+    },
+    "Bouteilles": {
+      "format": [],
+      "rows": [
+        {"nom": "Grimbergen", "fake": 3.8},
+        {"nom": "Grimbergen Rouge", "fake": 4.5},
+        {"nom": "Desperados", "fake": 5.5},
+        {"nom": "La Chouffe", "fake": 5.5},
+        {"nom": "Punk IPA", "fake": 5.5},
+        {"nom": "Magners Irish Cider", "fake": 6.5},
+        {"nom": "Goudale 0.0%", "fake": 4.5}
+      ]
+    }
+  },
+  "Les Apéritifs": {
+    "Pastis, Ricard, Casanis": 2.8,
+    "Suze": 4.0,
+    "Martini Blanc": 4.0,
+    "Kir (Blanc Cassis)": 4.0
+  },
+  "Les Vins": {
+    "Chamasutra Rouge": 3.5,
+    "Je donne ma langue au chat Blanc": 3.5,
+    "La nuit tous les chats sont gris Rosé": 3.5
+  },
+  "Les Punchs Maison": {
+    "Coco Citron": 7.0,
+    "Passion": 7.0,
+    "Goyave": 7.0,
+    "Bouteille de Punch": 35.0
+  },
+  "Les Cocktails": {
+    "Spritz": 9.0,
+    "Gin Hibiscus": 10.0,
+    "Moscow Mule": 10.0,
+    "London Mule": 10.0,
+    "Caribbean Mule": 10.0,
+    "Cuba Libre": 8.0,
+    "Jagger Bomb": 8.0,
+    "Gin Fizz": 9.0,
+    "Tequila Sunrise": 8.0,
+    "Daiquiri Shake": 9.0,
+    "Bloody Mary": 10.0
+  },
+  "Rhums Arrangés": {
+    "Le Gwada": {
+      "3cl": 4.0,
+      "5cl": 6.0,
+      "Ingrédients": "Damoiseau, bois bandé, cannelle"
+    },
+    "Le Madinina": {
+      "3cl": 4.0,
+      "5cl": 6.0,
+      "Ingrédients": "HSE, banane, passion, gingembre"
+    },
+    "Le Bourbon": {
+      "3cl": 4.0,
+      "5cl": 6.0,
+      "Ingrédients": "Charette, combawa"
+    },
+    "Piment": {
+      "3cl": 4.0,
+      "5cl": 6.0,
+      "Ingrédients": "HSE, piment oiseau, miel"
+    },
+    "Planche de 10 shots (3cl)": 35.0
+  },
+  "Spiritueux (4cl)": {
+    "Rhums": {
+      "Clément V.O (Martinique)": 7.0,
+      "Diplomatico (Venezuela)": 8.0,
+      "Bumbu (Barbades)": 8.0,
+      "Arkane (Île Maurice)": 8.0,
+      "Angostura 7 ans (Trinité et Tobago)": 9.0,
+      "Santa Teresa 1796 (Venezuela)": 10.0,
+      "Ryoma (Japon)": 10.0,
+      "Centanario 10 ans (Costa Rica)": 10.0,
+      "Millonario 15 ans (Pérou)": 10.0,
+      "Dictador 20 ans (Colombie)": 12.0
+    },
+    "Whiskies": {
+      "Jack Daniels": 7.0,
+      "Jameson": 7.0,
+      "Aberlour": 7.0,
+      "Bowmore": 7.0,
+      "Nikka Days": 8.0,
+      "Talisker": 8.0,
+      "Caol Ila": 9.0,
+      "Nikka Coffey Grain": 9.0,
+      "Lagavulin 16 ans": 12.0
+    },
+    "Gins": {
+      "Gibson’s London": 6.0,
+      "Bombay Saphire": 7.0,
+      "Tanqueray": 7.0,
+      "Lône (Aramon)": 8.0,
+      "Hendricks": 8.0,
+      "Gunpowder": 8.0,
+      "Monkey 47": 10.0,
+      "Oli’gin (Avignon)": 10.0,
+      "+ Schweppes": 0.5,
+      "+ Mixer Tonic Fever Tree": 2.5
+    }
+  },
+  "Ti Punch (Rhums blancs 4cl)": {
+    "HSE 40%": 5.5,
+    "HSE 55%": 6.5,
+    "Trois Rivières 50%": 6.5,
+    "Reimonenq 50%": 6.5,
+    "Damoiseau 50%": 6.5,
+    "Bologne 50%": 6.5,
+    "Charrette 49%": 6.5
+  },
+  "Digestifs (4cl)": {
+    "Get 27": 6.0,
+    "Jägermeister": 6.0,
+    "Bailey’s": 6.5,
+    "Cognac V.S.O.P": 8.0,
+    "Calva V.S.O.P": 8.0,
+    "Poire Williams": 8.0
+  },
+  "Shots (2cl)": {
+    "Jager": 4.0,
+    "Get 27": 4.0,
+    "Orgasme": 4.0,
+    "Jack": 4.5,
+    "Vodka sirop": 3.5,
+    "Vodka Get": 4.5,
+    "Rhums Arrangés": 4.0,
+    "Tequila Cuervo Especial": 4.0,
+    "Tequila Blanche": 3.5,
+    "Planche de 10 shots Cuervo": 35.0,
+    "Planche de 10 shots Tequila": 30.0
+  },
+  "Softs": {
+    "Sirops à l’eau": 2.8,
+    "Coca / Coca zéro": 4.0,
+    "Fuzz Tea / Orangina": 4.0,
+    "Limonade / Perrier / Schweppes": 4.0,
+    "Diabolo": 4.5,
+    "Red Bull": 4.5,
+    "Jus de Fruits Bio (Orange, Abricot, Ananas, Tomate)": 4.5,
+    "Ginger Beer Bundaberg 37,5cl": 6.0,
+    "Ginger Ale Fever Tree 20cl": 4.5,
+    "Café Frappé": 4.0,
+    "Café / Déca": 1.3,
+    "Thé / Tisane": 4.0,
+    "Grog": 5.0,
+    "Noisette": null,
+    "Grand crème": null
+  }
+}
