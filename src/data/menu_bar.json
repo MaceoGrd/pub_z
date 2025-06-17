@@ -107,7 +107,7 @@
       { "nom": "Caribbean Mule", "prix": 10.0 }
     ]
   },
-  "Les Whiskies (4cl)": [
+  "Les Whiskies": [
     { "nom": "Whisky Classique", "formats": { "shot": 4.0, "prix": 6.0 } },
     { "nom": "Jameson", "formats": { "shot": 4.50, "prix": 7.50 } },
     { "nom": "Aberlour", "prix": 7.5 },
@@ -120,7 +120,7 @@
     { "nom": "+ Soft (Coca, Perrier, Orange...)", "prix": 0.50 }
 
   ],
-  "Les Gins (4cl)": [
+  "Les Gins": [
     { "nom": "Gin Classique (Angleterre)", "prix": 6.0 },
     { "nom": "Bombay Saphire (Anglettere)", "prix": 7.0 },
     { "nom": "Tanqueray (Angleterre)", "prix": 7.0 },
