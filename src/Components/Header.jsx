@@ -6,7 +6,7 @@ export default function Header() {
       <img src="/Logo.png" alt="Logo" className="h-14 sm:h-20 md:h-24" />
       <nav className="space-x-4 text-sm sm:text-base">
         <Link to="/" className="hover:underline">Accueil</Link>
-        <Link to="/menu" className="hover:underline">Menu</Link>
+        <Link to="/menu" className="hover:underline">La Carte</Link>
       </nav>
     </header>
   );

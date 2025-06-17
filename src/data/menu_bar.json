@@ -32,7 +32,8 @@
     { "nom": "La Chouffe", "prix": 6.0 },
     { "nom": "Punk IPA", "prix": 6.0 },
     { "nom": "Magners Irish Cider", "prix": 6.50 },
-    { "nom": "Goudale 0.0%", "prix": 4.50 }
+    { "nom": "Goudale 0.0%", "prix": 4.50 },
+    { "nom": "Ginger Beer Bundaberg (37,5cl)", "prix": 6.0 }
   ],
   "Les Apéritifs": [
     { "nom": "Pastis, Ricard, Casanis (2cl) (Mauresque, Tomate, Perroquet)", "prix": 2.80 },
@@ -43,16 +44,16 @@
     { "nom": "Puputa (Rosé Limé XL)", "prix": 4.0 }
   ],
   "Les Vins": [
-    { "nom": "Chamasutra Rouge (Cellier des chartreux - IGP Gard)", "prix": 3.50 },
-    { "nom": "Je donne ma langue au chat Blanc (Cellier des chartreux - IGP Gard)", "prix": 3.50 },
-    { "nom": "La nuit tous les chats sont gris Rosé (Cellier des chartreux - IGP Gard)", "prix": 3.50 },
+    { "nom": "Chamasutra Rouge (Cellier des chartreux - IGP Gard)", "formats": { "btle 75cl": 22.0, "12,5cl": 3.50 } },
+    { "nom": "Je donne ma langue au chat Blanc (Cellier des chartreux - IGP Gard)", "formats": { "btle 75cl": 22.0, "12,5cl": 3.50 } },
+    { "nom": "La nuit tous les chats sont gris Rosé (Cellier des chartreux - IGP Gard)", "formats": { "btle 75cl": 22.0, "12,5cl": 3.50 } },
     { "nom": "+ Sirop", "prix": 0.50 },
     { "nom": "Prosecco", "prix": 5.0 },
     { "nom": "Puputa (Rosé Limé XL)", "prix": 4.0 },
     { "nom": "Champagne Bouteille", "prix": 65.0 }
   ],
   "Les Cocktails & Les Mocktails": [
-    { "nom": "Spritz", "formats": {"Happy Hour": 7.50, "prix":10.0 }},
+    { "nom": "Spritz", "prix":10.0 },
     { "nom": "Gin Hibiscus", "prix": 10.0 },
     { "nom": "Moscow Mule", "prix": 10.0 },
     { "nom": "London Mule", "prix": 10.0 },
@@ -96,7 +97,7 @@
         "description": "HSE, piment oiseau, miel"
       },
       {
-        "nom": "Planche de 10 shots de 3cl",
+        "nom": "Planche de 10 shots (3cl) (Panachage Possible)",
         "prix": 35.0
       }
     ],
@@ -179,12 +180,11 @@
   "Shots (2cl)": [
     { "nom": "Rhums Arrangés", "prix": 4.0 },
     { "nom": "Planche de 10 shots Rhum Arrangés", "prix": 35.0 },
-    { "nom": "Tequila Cuervo Especial", "prix": 4.0 },
     { "nom": "Tequila Blanche", "prix": 3.5 },
     { "nom": "Planche de 10 shots Tequila", "prix": 30.0 },
     { "nom": "Tequila Reposado", "prix": 4.0 },
     { "nom": "Planche de 10 shots Reposado", "prix": 35.0 },
-    { "nom": "Jager", "prix": 4.0 },
+    { "nom": "Jägermeister", "prix": 4.0 },
     { "nom": "Get 27", "prix": 4.0 },
     { "nom": "Orgasme", "prix": 4.0 },
     { "nom": "Bailey's", "prix": 4.0 },
@@ -225,8 +225,8 @@
 
     "Les Sodas": [
       { "nom": "Coca / Coca zéro (33cl)", "prix": 4.2 },
+      { "nom": "Limonade / Perrier (33cl)", "prix": 4.2 },
       { "nom": "Fuze Tea / Orangina (25cl)", "prix": 4.2 },
-      { "nom": "Limonade / Perrier (33clcl)", "prix": 4.2 },
       { "nom": "Schweppes (25cl)", "prix": 4.2 },
       { "nom": "+ Sirop", "prix": 0.50 },
       { "nom": "Gambetta Limonade", "prix": 5.0 },
@@ -242,6 +242,7 @@
     ]
   },
   "Les Grignotages": [
+    { "nom": "(servis avec des toasts grillés)"},
     { "nom": "Saucisson (90g) (Ficelle de l'Aveyron)", "prix": 7.0 },
     { "nom": "Tartinable Tapenade (100g) (BIO Artisanal & Local)", "prix": 7.0 },
     { "nom": "Tartinable Houmous (100g) (BIO Artisanal & Local)", "prix": 7.0 },
