@@ -185,7 +185,7 @@
     { "nom": "Whisky Jack Daniel's", "prix": 4.5 }
   ],
   "Softs": {
-    "Les Sirops": [
+    "Les Sirops (30cl)": [
       { "nom": "Pac", "prix": 3.0 },
       { "nom": "Menthe verte", "prix": 3.0 },
       { "nom": "Grenadine", "prix": 3.0 },
@@ -200,21 +200,22 @@
       { "nom": "Orgeat", "prix": 3.0 }
     ],
 
-    "Les Jus de Fruits": [
+    "Les Jus de Fruits (25cl)": [
       { "nom": "Abricot Bio", "prix": 4.7 },
       { "nom": "Pomme Bio", "prix": 4.7 },
       { "nom": "Ananas Bio", "prix": 4.7 }
     ],
 
     "Les Sodas": [
-      { "nom": "Coca / Coca zéro", "prix": 4.2 },
-      { "nom": "Fuzz Tea / Orangina", "prix": 4.2 },
-      { "nom": "Limonade / Perrier / Schweppes", "prix": 4.2 },
+      { "nom": "Coca / Coca zéro (33cl)", "prix": 4.2 },
+      { "nom": "Fuze Tea / Orangina (25cl)", "prix": 4.2 },
+      { "nom": "Limonade / Perrier (33clcl)", "prix": 4.2 },
+      { "nom": "Schweppes (25cl)", "prix": 4.2 },
       { "nom": "+ Sirop", "prix": 0.50 },
       { "nom": "Gambetta Limonade", "prix": 5.0 },
-      { "nom": "Red Bull", "prix": 4.5 },
-      { "nom": "Ginger Beer Bundaberg", "prix": 6.0 },
-      { "nom": "Ginger Ale Fever Tree", "prix": 4.5 }
+      { "nom": "Red Bull (25cl)", "prix": 4.5 },
+      { "nom": "Ginger Beer Bundaberg (37,5cl)", "prix": 6.0 },
+      { "nom": "Ginger Ale Fever Tree (20cl)", "prix": 4.5 }
     ],
     "Les Chauds": [
       { "nom": "Café", "prix": 1.5 },
