@@ -24,38 +24,29 @@ export default function Home() {
 
   return (
     <div className="px-0 py-8 text-white">
-      <h1 className="text-3xl md:text-5xl font-bold text-center mb-10 text-white">
-        Bienvenue au Pub Z
-      </h1>
+      
+      <img 
+        src="/bannière.png" 
+        alt="Bannière du Pub Z" 
+        className="w-full h-auto mb-8" 
+      />
         
-      <div className="w-screen overflow-hidden mb-16">
-        <Slider {...sliderSettings}>
-          {images.map((src, index) => (
-            <div key={index}>
-              <img
-                src={src}
-                alt={`Photo ${index}`}
-                className="w-screen h-64 sm:h-80 md:h-[32rem] object-cover"
-              />
-            </div>
-          ))}
-        </Slider>
-      </div>
-        
-      <p className="text-lg text-center text-zinc-300 max-w-2xl mx-auto mb-12 px-4">
-        Un lieu chaleureux pour partager des moments inoubliables entre amis, autour d'une bonne bière ou d’un cocktail maison 🍸 <br className="hidden sm:inline" /> (No Fuking Moritos Here!)
+      <p className="text-2xl text-center text-zinc-300 max-w-2xl mx-auto mb-3 px-4">
+        Rhumerie sonore depuis 1987
       </p>
 
-      <div className="flex flex-wrap justify-center gap-4 text-center text-zinc-100 font-medium max-w-4xl mx-auto px-4">
-        {Object.entries(horaires).map(([jour, heure], i) => (
-          <div key={i} className="w-[45%] sm:w-[30%] md:w-[22%]">
-            {jour}<br />
-            <span className={`text-sm ${heure === "Fermé" ? "text-zinc-500" : ""}`}>
-              {heure}
-            </span>
-          </div>
-        ))}
-      </div>
+      <p className="text-2xl text-center text-zinc-300 max-w-2xl mx-auto mb-3 px-4">
+        musique, expos & cultures alternatives
+      </p>
+
+      <p className="text-2xl text-center text-zinc-300 max-w-2xl mx-auto mb-3 px-4">
+        Happy hour 18h30 - 20h30
+      </p>
+
+      <p className="text-xl text-center text-zinc-300 max-w-2xl mx-auto mb-3 px-4">
+        Ouvert du Mardi au Samedi de 17h à 1h30.
+      </p>
+
     </div>
   );
 }

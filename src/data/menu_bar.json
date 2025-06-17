@@ -1,4 +1,21 @@
 {
+  "Happy Hour 18h30 - 20h30": [
+    { "nom": "La Pinte de Krombacher", "prix": 5 },
+    { "nom": "Le Pastis Ricard", "prix": 2 },
+    { "nom": "Le Pastis Casanis", "prix": 2 },
+    { "nom": "Spritz", "prix":7.5 },
+    { "nom": "Gin Hibiscus", "prix": 7.5 },
+    { "nom": "Moscow Mule", "prix": 7.5 },
+    { "nom": "London Mule", "prix": 7.5 },
+    { "nom": "Caribbean Mule", "prix": 7.5 },
+    { "nom": "Cuba Libre", "prix": 7.5 },
+    { "nom": "Jagger Bomb", "prix": 7.5 },
+    { "nom": "Gin Fizz", "prix": 7.5 },
+    { "nom": "Tequila Sunrise", "prix": 7.5 },
+    { "nom": "Daiquiri", "prix": 7.5 },
+    { "nom": "Bloody Mary", "prix": 7.5 },
+    { "nom": "Le Sirop de Fraise a l'Eau", "prix": 2 } 
+  ],
   "Les Bières": [
     { "nom": "Krombacher Blonde", "formats": { "25cl": 3.50, "50cl": 6.50 } },
     { "nom": "Blanche de Bruxelles", "formats": { "25cl": 4.50, "50cl": 8 } },
