@@ -18,8 +18,8 @@
   ],
   "Les Apéritifs": [
     { "nom": "Pastis, Ricard, Casanis", "prix": 2.8 },
-    { "nom": "Suze", "prix": 4.0 },
-    { "nom": "Martini Blanc", "prix": 4.0 },
+    { "nom": "Suze", "prix": 4.5 },
+    { "nom": "Martini Blanc", "prix": 4.5 },
     { "nom": "Kir (Blanc Cassis)", "prix": 4.0 }
   ],
   "Les Vins": [
@@ -28,23 +28,27 @@
     { "nom": "La nuit tous les chats sont gris Rosé", "prix": 3.5 }
   ],
   "Les Punchs Maison": [
-    { "nom": "Coco Citron", "prix": 7.0 },
-    { "nom": "Passion", "prix": 7.0 },
-    { "nom": "Goyave", "prix": 7.0 },
-    { "nom": "Bouteille de Punch", "prix": 35.0 }
+    { "nom": "Coco Citron", "prix": 7.5 },
+    { "nom": "Passion", "prix": 7.5 },
+    { "nom": "Goyave", "prix": 7.5 },
+    { "nom": "Bouteille de Punch", "prix": 38.0 }
   ],
   "Les Cocktails": [
-    { "nom": "Spritz", "prix": 9.0 },
+    { "nom": "Spritz", "prix": 10.0 },
     { "nom": "Gin Hibiscus", "prix": 10.0 },
     { "nom": "Moscow Mule", "prix": 10.0 },
     { "nom": "London Mule", "prix": 10.0 },
     { "nom": "Caribbean Mule", "prix": 10.0 },
-    { "nom": "Cuba Libre", "prix": 8.0 },
-    { "nom": "Jagger Bomb", "prix": 8.0 },
+    { "nom": "Cuba Libre", "prix": 8.5 },
+    { "nom": "Jagger Bomb", "prix": 8.5 },
     { "nom": "Gin Fizz", "prix": 9.0 },
-    { "nom": "Tequila Sunrise", "prix": 8.0 },
+    { "nom": "Tequila Sunrise", "prix": 8.5 },
     { "nom": "Daiquiri Shake", "prix": 9.0 },
     { "nom": "Bloody Mary", "prix": 10.0 }
+  ],
+  "Les Mocktails": [
+    { "nom": "AAP", "prix": 10.0 },
+    { "nom": "AAP", "prix": 10.0 }
   ],
   "Rhums Arrangés": [
     {
@@ -80,7 +84,7 @@
     { "nom": "Angostura 7 ans", "prix": 9.0 },
     { "nom": "Santa Teresa 1796", "prix": 10.0 },
     { "nom": "Ryoma (Japon)", "prix": 10.0 },
-    { "nom": "Centanario 10 ans", "prix": 10.0 },
+    { "nom": "Centenario 10 ans", "prix": 10.0 },
     { "nom": "Millonario 15 ans", "prix": 10.0 },
     { "nom": "Dictador 20 ans", "prix": 12.0 }
   ],
@@ -94,12 +98,12 @@
     { "nom": "Charrette 49%", "prix": 6.5 }
   ],
   "Digestifs (4cl)": [
-    { "nom": "Get 27", "prix": 6.0 },
+    { "nom": "Get 27", "prix": 6.5 },
     { "nom": "Jägermeister", "prix": 6.0 },
     { "nom": "Bailey’s", "prix": 6.5 },
-    { "nom": "Cognac V.S.O.P", "prix": 8.0 },
-    { "nom": "Calva V.S.O.P", "prix": 8.0 },
-    { "nom": "Poire Williams", "prix": 8.0 }
+    { "nom": "Cognac V.S.O.P", "prix": 9.0 },
+    { "nom": "Calva V.S.O.P", "prix": 9.0 },
+    { "nom": "Poire Williams", "prix": 9.0 }
   ],
   "Shots (2cl)": [
     { "nom": "Jager", "prix": 4.0 },
@@ -115,18 +119,18 @@
     { "nom": "Planche de 10 shots Tequila", "prix": 30.0 }
   ],
   "Softs": [
-    { "nom": "Sirops à l’eau", "prix": 2.8 },
-    { "nom": "Coca / Coca zéro", "prix": 4.0 },
-    { "nom": "Fuzz Tea / Orangina", "prix": 4.0 },
-    { "nom": "Limonade / Perrier / Schweppes", "prix": 4.0 },
-    { "nom": "Diabolo", "prix": 4.5 },
+    { "nom": "Sirops à l’eau", "prix": 3.0 },
+    { "nom": "Coca / Coca zéro", "prix": 4.2 },
+    { "nom": "Fuzz Tea / Orangina", "prix": 4.2 },
+    { "nom": "Limonade / Perrier / Schweppes", "prix": 4.2 },
+    { "nom": "Diabolo", "prix": 4.7 },
     { "nom": "Red Bull", "prix": 4.5 },
-    { "nom": "Jus de Fruits Bio", "prix": 4.5 },
+    { "nom": "Jus de Fruits Bio", "prix": 4.7 },
     { "nom": "Ginger Beer Bundaberg", "prix": 6.0 },
     { "nom": "Ginger Ale Fever Tree", "prix": 4.5 },
     { "nom": "Café Frappé", "prix": 4.0 },
-    { "nom": "Café / Déca", "prix": 1.3 },
-    { "nom": "Thé / Tisane", "prix": 4.0 },
-    { "nom": "Grog", "prix": 5.0 }
+    { "nom": "Café / Déca", "prix": 1.5 },
+    { "nom": "Thé / Tisane", "prix": 4.5 },
+    { "nom": "Grog", "prix": 5.5 }
   ]
 }
