@@ -1,252 +1,922 @@
 {
   "Happy Hour 18h30 - 20h30": [
-    { "nom": "La Pinte de Krombacher", "prix": 5 },
-    { "nom": "Le Pastis Ricard", "prix": 2 },
-    { "nom": "Le Pastis Casanis", "prix": 2 },
-    { "nom": "Spritz", "prix":7.5 },
-    { "nom": "Gin Hibiscus", "prix": 7.5 },
-    { "nom": "Moscow Mule", "prix": 7.5 },
-    { "nom": "London Mule", "prix": 7.5 },
-    { "nom": "Caribbean Mule", "prix": 7.5 },
-    { "nom": "Cuba Libre", "prix": 7.5 },
-    { "nom": "Jagger Bomb", "prix": 7.5 },
-    { "nom": "Gin Fizz", "prix": 7.5 },
-    { "nom": "Tequila Sunrise", "prix": 7.5 },
-    { "nom": "Daiquiri", "prix": 7.5 },
-    { "nom": "Bloody Mary", "prix": 7.5 },
-    { "nom": "Le Sirop de Fraise a l'Eau", "prix": 2 } 
+    {
+      "nom": "La Pinte de Krombacher",
+      "prix": 6.50,
+      "prixHP": 5
+    },
+    {
+      "nom": "Le Pastis Ricard",
+      "prix": 2.80,
+      "prixHP": 2
+    },
+    {
+      "nom": "Le Pastis Casanis",
+      "prix": 2.80,
+      "prixHP": 2
+    },
+    {
+      "nom": "Spritz",
+      "prix": 10.0,
+      "prixHP": 7.5
+    },
+    {
+      "nom": "Gin Hibiscus",
+      "prix": 10.0,
+      "prixHP": 7.5
+    },
+    {
+      "nom": "Moscow Mule",
+      "prix": 10.0,
+      "prixHP": 7.5
+    },
+    {
+      "nom": "London Mule",
+      "prix": 10.0,
+      "prixHP": 7.5
+    },
+    {
+      "nom": "Caribbean Mule",
+      "prix": 10.0,
+      "prixHP": 7.5
+    },
+    {
+      "nom": "Cuba Libre",
+      "prix": 8.5,
+      "prixHP": 7.5
+    },
+    {
+      "nom": "Jagger Bomb",
+      "prix": 8.5,
+      "prixHP": 7.5
+    },
+    {
+      "nom": "Gin Fizz",
+      "prix": 9,
+      "prixHP": 7.5
+    },
+    {
+      "nom": "Tequila Sunrise",
+      "prix": 8.5,
+      "prixHP": 7.5
+    },
+    {
+      "nom": "Daiquiri",
+      "prix": 9,
+      "prixHP": 7.5
+    },
+    {
+      "nom": "Bloody Mary",
+      "prix": 10,
+      "prixHP": 7.5
+    },
+    {
+      "nom": "Le Sirop de Fraise a l'Eau",
+      "prix": 3,
+      "prixHP": 2
+    }
   ],
   "Les Bières": [
-    { "nom": "Krombacher Blonde", "formats": { "25cl": 3.50, "50cl": 6.50 } },
-    { "nom": "Blanche de Bruxelles", "formats": { "25cl": 4.50, "50cl": 8 } },
-    { "nom": "Goudale Ambrée", "formats": { "25cl": 4.50, "50cl": 8 } },
-    { "nom": "O'Hara's IPA", "formats": { "25cl": 4.50, "50cl": 8 } },
-    { "nom": "Picon Bière", "formats": { "25cl": 4.50, "50cl": 8 } },
-    { "nom": "Panaché", "formats": { "25cl": 3.80, "50cl": 7 } },
-    { "nom": "Monaco", "formats": { "25cl": 4, "50cl": 7.50 } },
-    { "nom": "Cervoise", "formats": { "25cl": 4, "50cl": 7.50 } },
-    { "nom": "+ Sirop", "formats": { "25cl": 0.30, "50cl": 0.60 } },
-    { "nom": "Grimbergen", "prix": 4.0 },
-    { "nom": "Grimbergen Rouge", "prix": 4.50 },
-    { "nom": "Desperados", "prix": 6.0 },
-    { "nom": "La Chouffe", "prix": 6.0 },
-    { "nom": "Punk IPA", "prix": 6.0 },
-    { "nom": "Magners Irish Cider", "prix": 6.50 },
-    { "nom": "Goudale 0.0%", "prix": 4.50 },
-    { "nom": "Ginger Beer Bundaberg (37,5cl)", "prix": 6.0 }
+    {
+      "nom": "Krombacher Blonde",
+      "formats": {
+        "25cl": 3.5,
+        "50cl": 6.5
+      },
+      "prixHPFormats": {
+        "50cl": 5
+      }
+    },
+    {
+      "nom": "Blanche de Bruxelles",
+      "formats": {
+        "25cl": 4.5,
+        "50cl": 8
+      }
+    },
+    {
+      "nom": "Goudale Ambrée",
+      "formats": {
+        "25cl": 4.5,
+        "50cl": 8
+      }
+    },
+    {
+      "nom": "O'Hara's IPA",
+      "formats": {
+        "25cl": 4.5,
+        "50cl": 8
+      }
+    },
+    {
+      "nom": "Picon Bière",
+      "formats": {
+        "25cl": 4.5,
+        "50cl": 8
+      }
+    },
+    {
+      "nom": "Panaché",
+      "formats": {
+        "25cl": 3.8,
+        "50cl": 7
+      }
+    },
+    {
+      "nom": "Monaco",
+      "formats": {
+        "25cl": 4,
+        "50cl": 7.5
+      }
+    },
+    {
+      "nom": "Cervoise",
+      "formats": {
+        "25cl": 4,
+        "50cl": 7.5
+      }
+    },
+    {
+      "nom": "+ Sirop",
+      "formats": {
+        "25cl": 0.3,
+        "50cl": 0.6
+      }
+    },
+    {
+      "nom": "Grimbergen",
+      "prix": 4.0
+    },
+    {
+      "nom": "Grimbergen Rouge",
+      "prix": 4.5
+    },
+    {
+      "nom": "Desperados",
+      "prix": 6.0
+    },
+    {
+      "nom": "La Chouffe",
+      "prix": 6.0
+    },
+    {
+      "nom": "Punk IPA",
+      "prix": 6.0
+    },
+    {
+      "nom": "Magners Irish Cider",
+      "prix": 6.5
+    },
+    {
+      "nom": "Goudale 0.0%",
+      "prix": 4.5
+    },
+    {
+      "nom": "Ginger Beer Bundaberg",
+      "prix": 6.0,
+      "description": "37,5cl"
+    }
   ],
   "Les Apéritifs": [
-    { "nom": "Pastis, Ricard, Casanis (2cl) (Mauresque, Tomate, Perroquet)", "prix": 2.80 },
-    { "nom": "Suze (5cl)", "prix": 4.50 },
-    { "nom": "Martini Blanc (5cl)", "prix": 4.50 },
-    { "nom": "Apérol (4cl)", "prix": 4.0 },
-    { "nom": "Blanc Cass'", "prix": 4.0 },
-    { "nom": "Puputa (Rosé Limé XL)", "prix": 4.0 }
+    {
+      "nom": "Pastis, Ricard, Casanis (2cl)",
+      "prix": 2.8,
+      "description": "Mauresque, Tomate, Perroquet"
+    },
+    {
+      "nom": "Suze",
+      "prix": 4.5,
+      "description": "5cl"
+    },
+    {
+      "nom": "Martini Blanc",
+      "prix": 4.5,
+      "description": "5cl"
+    },
+    {
+      "nom": "Apérol",
+      "prix": 4.0,
+      "description": "4cl"
+    },
+    {
+      "nom": "Blanc Cass'",
+      "prix": 4.0
+    },
+    {
+      "nom": "Puputa",
+      "prix": 4.0,
+      "description": "Rosé Limé XL"
+    }
   ],
   "Les Vins": [
-    { "nom": "Chamasutra Rouge (Cellier des chartreux - IGP Gard)", "formats": { "btle 75cl": 22.0, "12,5cl": 3.50 } },
-    { "nom": "Je donne ma langue au chat Blanc (Cellier des chartreux - IGP Gard)", "formats": { "btle 75cl": 22.0, "12,5cl": 3.50 } },
-    { "nom": "La nuit tous les chats sont gris Rosé (Cellier des chartreux - IGP Gard)", "formats": { "btle 75cl": 22.0, "12,5cl": 3.50 } },
-    { "nom": "+ Sirop", "prix": 0.50 },
-    { "nom": "Prosecco", "prix": 5.0 },
-    { "nom": "Puputa (Rosé Limé XL)", "prix": 4.0 },
-    { "nom": "Champagne Bouteille", "prix": 65.0 }
+    {
+      "nom": "Chamasutra Rouge",
+      "formats": {
+        "btle 75cl": 22.0,
+        "12,5cl": 3.5
+      },
+      "description": "Cellier des chartreux - IGP Gard"
+    },
+    {
+      "nom": "Je donne ma langue au chat Blanc",
+      "formats": {
+        "btle 75cl": 22.0,
+        "12,5cl": 3.5
+      },
+      "description": "Cellier des chartreux - IGP Gard"
+    },
+    {
+      "nom": "La nuit tous les chats sont gris Rosé",
+      "formats": {
+        "btle 75cl": 22.0,
+        "12,5cl": 3.5
+      },
+      "description": "Cellier des chartreux - IGP Gard"
+    },
+    {
+      "nom": "+ Sirop",
+      "prix": 0.5
+    },
+    {
+      "nom": "Prosecco",
+      "prix": 5.0
+    },
+    {
+      "nom": "Puputa",
+      "prix": 4.0,
+      "description": "Rosé Limé XL"
+    },
+    {
+      "nom": "Champagne Bouteille",
+      "prix": 65.0
+    }
   ],
   "Les Cocktails & Les Mocktails": [
-    { "nom": "Spritz", "prix":10.0 },
-    { "nom": "Gin Hibiscus", "prix": 10.0 },
-    { "nom": "Moscow Mule", "prix": 10.0 },
-    { "nom": "London Mule", "prix": 10.0 },
-    { "nom": "Caribbean Mule", "prix": 10.0 },
-    { "nom": "Cuba Libre", "prix": 8.5 },
-    { "nom": "Jagger Bomb", "prix": 8.5 },
-    { "nom": "Gin Fizz", "prix": 9.0 },
-    { "nom": "Tequila Sunrise", "prix": 8.5 },
-    { "nom": "Daiquiri", "prix": 9.0 },
-    { "nom": "Bloody Mary", "prix": 10.0 },
-    { "nom": "Mocktail Abricot (Sans Alcool)", "prix": 6.0 },
-    { "nom": "Mocktail Ananas (Sans Alcool)", "prix": 6.0 }
+    {
+      "nom": "Spritz",
+      "prix": 10.0,
+      "prixHP": 7.5
+    },
+    {
+      "nom": "Gin Hibiscus",
+      "prix": 10.0,
+      "prixHP": 7.5
+    },
+    {
+      "nom": "Moscow Mule",
+      "prix": 10.0,
+      "prixHP": 7.5
+    },
+    {
+      "nom": "London Mule",
+      "prix": 10.0,
+      "prixHP": 7.5
+    },
+    {
+      "nom": "Caribbean Mule",
+      "prix": 10.0,
+      "prixHP": 7.5
+    },
+    {
+      "nom": "Cuba Libre",
+      "prix": 8.5,
+      "prixHP": 7.5
+    },
+    {
+      "nom": "Jagger Bomb",
+      "prix": 8.5,
+      "prixHP": 7.5
+    },
+    {
+      "nom": "Gin Fizz",
+      "prix": 9.0,
+      "prixHP": 7.5
+    },
+    {
+      "nom": "Tequila Sunrise",
+      "prix": 8.5,
+      "prixHP": 7.5
+    },
+    {
+      "nom": "Daiquiri",
+      "prix": 9.0,
+      "prixHP": 7.5
+    },
+    {
+      "nom": "Bloody Mary",
+      "prix": 10.0,
+      "prixHP": 7.5
+    },
+    {
+      "nom": "Mocktail Abricot",
+      "prix": 6.0,
+      "description": "Sans Alcool"
+    },
+    {
+      "nom": "Mocktail Ananas",
+      "prix": 6.0,
+      "description": "Sans Alcool"
+    }
   ],
   "Les Rhums": {
     "Punchs Maison": [
-      { "nom": "Coco Citron (16cl)", "prix": 7.50 },
-      { "nom": "Passion (16cl)", "prix": 7.50 },
-      { "nom": "Goyave (16cl)", "prix": 7.50 },
-      { "nom": "Bouteille de Punch 1L", "prix": 38.0 }
+      {
+        "nom": "Coco Citron",
+        "prix": 7.5,
+        "description": "16cl"
+      },
+      {
+        "nom": "Passion",
+        "prix": 7.5,
+        "description": "16cl"
+      },
+      {
+        "nom": "Goyave",
+        "prix": 7.5,
+        "description": "16cl"
+      },
+      {
+        "nom": "Bouteille de Punch 1L",
+        "prix": 38.0
+      }
     ],
-
     "Rhums Arrangés": [
       {
         "nom": "Le Gwada",
-        "formats": { "3cl": 4.0, "5cl": 6.0 },
+        "formats": {
+          "3cl": 4.0,
+          "5cl": 6.0
+        },
         "description": "Damoiseau, bois bandé, cannelle"
       },
       {
         "nom": "Le Madinina",
-        "formats": { "3cl": 4.0, "5cl": 6.0 },
+        "formats": {
+          "3cl": 4.0,
+          "5cl": 6.0
+        },
         "description": "HSE, banane, baies de la passion, gingembre"
       },
       {
         "nom": "Le Bourbon",
-        "formats": { "3cl": 4.0, "5cl": 6.0 },
+        "formats": {
+          "3cl": 4.0,
+          "5cl": 6.0
+        },
         "description": "Charette, combava, vanille"
       },
       {
         "nom": "Piment",
-        "formats": { "3cl": 4.0, "5cl": 6.0 },
+        "formats": {
+          "3cl": 4.0,
+          "5cl": 6.0
+        },
         "description": "HSE, piment oiseau, miel"
       },
       {
-        "nom": "Planche de 10 shots (3cl) (Panachage Possible)",
-        "prix": 35.0
+        "nom": "Planche de 10 shots (3cl)",
+        "prix": 35.0,
+        "description": "Panachage Possible"
       }
     ],
     "Rhums Vieux (4cl)": [
-      { "nom": "Saint James (Martinique)", "prix": 6.0 },
-      { "nom": "Clément V.O (Martinique)", "prix": 7.0 },
-      { "nom": "Diplomatico (Venezuela)", "prix": 8.0 },
-      { "nom": "Bumbu (Barbades)", "prix": 8.0 },
-      { "nom": "Angostura 7 ans (Trinidad & Tobago)", "prix": 9.0 },
-      { "nom": "Santa Teresa 1796 (Venezuela)", "prix": 10.0 },
-      { "nom": "Ryoma (Japon)", "prix": 10.0 },
-      { "nom": "Millonario 15 ans (Perou)", "prix": 10.0 },
-      { "nom": "Plantation Xo (Barbades)", "prix": 12.0 },
-      { "nom": "Grog", "prix": 5.5 }
+      {
+        "nom": "Saint James",
+        "prix": 6.0,
+        "description": "Martinique"
+      },
+      {
+        "nom": "Clément V.O",
+        "prix": 7.0,
+        "description": "Martinique"
+      },
+      {
+        "nom": "Diplomatico",
+        "prix": 8.0,
+        "description": "Venezuela"
+      },
+      {
+        "nom": "Bumbu",
+        "prix": 8.0,
+        "description": "Barbades"
+      },
+      {
+        "nom": "Angostura 7 ans",
+        "prix": 9.0,
+        "description": "Trinidad & Tobago"
+      },
+      {
+        "nom": "Santa Teresa 1796",
+        "prix": 10.0,
+        "description": "Venezuela"
+      },
+      {
+        "nom": "Ryoma",
+        "prix": 10.0,
+        "description": "Japon"
+      },
+      {
+        "nom": "Millonario 15 ans",
+        "prix": 10.0,
+        "description": "Perou"
+      },
+      {
+        "nom": "Plantation Xo",
+        "prix": 12.0,
+        "description": "Barbades"
+      },
+      {
+        "nom": "Grog",
+        "prix": 5.5
+      }
     ],
-
     "Les Rhums Blancs & Ti Punchs": [
-      { "nom": "HSE 40°", "prix": 5.5 },
-      { "nom": "HSE 55°", "prix": 6.5 },
-      { "nom": "Trois Rivières 50°", "prix": 6.5 },
-      { "nom": "Reimonenq 50°", "prix": 6.5 },
-      { "nom": "Damoiseau 50°", "prix": 6.5 },
-      { "nom": "Bologne 50°", "prix": 6.5 },
-      { "nom": "Charrette 49°", "prix": 6.5 },
-      { "nom": "Caribbean Mule", "prix": 10.0 }
+      {
+        "nom": "HSE 40°",
+        "prix": 5.5
+      },
+      {
+        "nom": "HSE 55°",
+        "prix": 6.5
+      },
+      {
+        "nom": "Trois Rivières 50°",
+        "prix": 6.5
+      },
+      {
+        "nom": "Reimonenq 50°",
+        "prix": 6.5
+      },
+      {
+        "nom": "Damoiseau 50°",
+        "prix": 6.5
+      },
+      {
+        "nom": "Bologne 50°",
+        "prix": 6.5
+      },
+      {
+        "nom": "Charrette 49°",
+        "prix": 6.5
+      },
+      {
+        "nom": "Caribbean Mule",
+        "prix": 10.0
+      }
     ]
   },
   "Les Whiskies": [
-    { "nom": "Whisky Classique", "formats": { "shot": 4.0, "prix": 6.0 } },
-    { "nom": "Jameson", "formats": { "shot": 4.50, "prix": 7.50 } },
-    { "nom": "Aberlour", "prix": 7.5 },
-    { "nom": "Bowmore", "prix": 7.5 },
-    { "nom": "Talisker", "prix": 8.0 },
-    { "nom": "Nikka Days", "prix": 8.0 },
-    { "nom": "Nikka Coffey Grain", "prix": 9.0 },
-    { "nom": "Lagavulin", "prix": 14.0 },
-    { "nom": "Jack Daniel's", "formats": { "shot": 4.50, "prix": 7.50 } },
-    { "nom": "+ Soft (Coca, Perrier, Orange...)", "prix": 0.50 }
-
+    {
+      "nom": "Whisky Classique",
+      "formats": {
+        "shot": 4.0,
+        "prix": 6.0
+      }
+    },
+    {
+      "nom": "Jameson",
+      "formats": {
+        "shot": 4.5,
+        "prix": 7.5
+      }
+    },
+    {
+      "nom": "Aberlour",
+      "prix": 7.5
+    },
+    {
+      "nom": "Bowmore",
+      "prix": 7.5
+    },
+    {
+      "nom": "Talisker",
+      "prix": 8.0
+    },
+    {
+      "nom": "Nikka Days",
+      "prix": 8.0
+    },
+    {
+      "nom": "Nikka Coffey Grain",
+      "prix": 9.0
+    },
+    {
+      "nom": "Lagavulin",
+      "prix": 14.0
+    },
+    {
+      "nom": "Jack Daniel's",
+      "formats": {
+        "shot": 4.5,
+        "prix": 7.5
+      }
+    },
+    {
+      "nom": "+ Soft",
+      "prix": 0.5,
+      "description": "Coca, Perrier, Orange..."
+    }
   ],
   "Les Gins": [
-    { "nom": "Gin Classique (Angleterre)", "prix": 6.0 },
-    { "nom": "Bombay Saphire (Anglettere)", "prix": 7.0 },
-    { "nom": "Tanqueray (Angleterre)", "prix": 7.0 },
-    { "nom": "LÔNE Local & Artisanal (Aramon FR)", "formats": {"shot": 4.0, "prix": 8.0 }},
-    { "nom": "Hendricks (Écosse)", "prix": 8.0 },
-    { "nom": "Gunpowder (Irlande)", "formats": {"shot": 5.0, "prix": 8.0 }},
-    { "nom": "Monkey 47 (Allemagne)", "formats": {"shot": 6.0, "prix": 10.0 } },
-    { "nom": "+ Soft", "formats": {"Tonic, Coca, Orange...": 0.50, "Red Bull": 2.50 } },
-    { "nom": "London Mule", "prix": 10.0 }
+    {
+      "nom": "Gin Classique",
+      "prix": 6.0,
+      "description": "Angleterre"
+    },
+    {
+      "nom": "Bombay Saphire",
+      "prix": 7.0,
+      "description": "Anglettere"
+    },
+    {
+      "nom": "Tanqueray",
+      "prix": 7.0,
+      "description": "Angleterre"
+    },
+    {
+      "nom": "LÔNE Local & Artisanal",
+      "formats": {
+        "shot": 4.0,
+        "prix": 8.0
+      },
+      "description": "Aramon FR"
+    },
+    {
+      "nom": "Hendricks",
+      "prix": 8.0,
+      "description": "Écosse"
+    },
+    {
+      "nom": "Gunpowder",
+      "formats": {
+        "shot": 5.0,
+        "prix": 8.0
+      },
+      "description": "Irlande"
+    },
+    {
+      "nom": "Monkey 47",
+      "formats": {
+        "shot": 6.0,
+        "prix": 10.0
+      },
+      "description": "Allemagne"
+    },
+    {
+      "nom": "+ Soft",
+      "formats": {
+        "Tonic, Coca, Orange...": 0.5,
+        "Red Bull": 2.5
+      }
+    },
+    {
+      "nom": "London Mule",
+      "prix": 10.0
+    }
   ],
   "Les Vodkas & Les Téquilas": {
     "Les Vodkas": [
-      { "nom": "Vodka Glace", "prix": 6.0 },
-      { "nom": "Vodka Pomme BIO", "prix": 10.0 },
-      { "nom": "Moscow Mule", "prix": 10.0 },
-      { "nom": "+ Soft", "formats": { "Tonic, Coca, Orange...": 0.50, "Red Bull": 2.50 } },
-      { "nom": "Shot Vodka", "prix": 3.50 },
-      { "nom": "Shot Vodka + Sirop", "prix": 3.50 },
-      { "nom": "Shot Vodka get 27", "prix": 4.50 }
+      {
+        "nom": "Vodka Glace",
+        "prix": 6.0
+      },
+      {
+        "nom": "Vodka Pomme BIO",
+        "prix": 10.0
+      },
+      {
+        "nom": "Moscow Mule",
+        "prix": 10.0
+      },
+      {
+        "nom": "+ Soft",
+        "formats": {
+          "Tonic, Coca, Orange...": 0.5,
+          "Red Bull": 2.5
+        }
+      },
+      {
+        "nom": "Shot Vodka",
+        "prix": 3.5
+      },
+      {
+        "nom": "Shot Vodka + Sirop",
+        "prix": 3.5
+      },
+      {
+        "nom": "Shot Vodka get 27",
+        "prix": 4.5
+      }
     ],
     "Les Téquilas": [
-      { "nom": "Téquila Blanche", "prix": 6.5 },
-      { "nom": "Tequila Sunrise", "prix": 8.5 },
-      { "nom": "+ Soft", "formats": { "Orange, Coca, Tonic...": 0.50 } },
-      { "nom": "Shot Tequila Blanche Sel Citron", "prix": 3.5 },
-      { "nom": "Shot Tequila Reposado Sel Citron", "prix": 4.0 },
-      { "nom": "Planche de 10 shots Tequila blanche", "prix": 30.0 },
-      { "nom": "Planche de 10 shots Reposado", "prix": 35.0 }
+      {
+        "nom": "Téquila Blanche",
+        "prix": 6.5
+      },
+      {
+        "nom": "Tequila Sunrise",
+        "prix": 8.5
+      },
+      {
+        "nom": "+ Soft",
+        "formats": {
+          "Orange, Coca, Tonic...": 0.5
+        }
+      },
+      {
+        "nom": "Shot Tequila Blanche Sel Citron",
+        "prix": 3.5
+      },
+      {
+        "nom": "Shot Tequila Reposado Sel Citron",
+        "prix": 4.0
+      },
+      {
+        "nom": "Planche de 10 shots Tequila blanche",
+        "prix": 30.0
+      },
+      {
+        "nom": "Planche de 10 shots Reposado",
+        "prix": 35.0
+      }
     ]
   },
   "Digestifs (4cl)": [
-    { "nom": "Get 27", "prix": 6.5 },
-    { "nom": "Jägermeister", "prix": 6.0 },
-    { "nom": "Bailey’s", "prix": 6.5 },
-    { "nom": "Cognac V.S.O.P", "prix": 9.0 },
-    { "nom": "Calva V.S.O.P", "prix": 9.0 },
-    { "nom": "Poire Williams", "prix": 9.0 }
+    {
+      "nom": "Get 27",
+      "prix": 6.5
+    },
+    {
+      "nom": "Jägermeister",
+      "prix": 6.0
+    },
+    {
+      "nom": "Bailey’s",
+      "prix": 6.5
+    },
+    {
+      "nom": "Cognac V.S.O.P",
+      "prix": 9.0
+    },
+    {
+      "nom": "Calva V.S.O.P",
+      "prix": 9.0
+    },
+    {
+      "nom": "Poire Williams",
+      "prix": 9.0
+    }
   ],
   "Shots (2cl)": [
-    { "nom": "Rhums Arrangés", "prix": 4.0 },
-    { "nom": "Planche de 10 shots Rhum Arrangés", "prix": 35.0 },
-    { "nom": "Tequila Blanche", "prix": 3.5 },
-    { "nom": "Planche de 10 shots Tequila", "prix": 30.0 },
-    { "nom": "Tequila Reposado", "prix": 4.0 },
-    { "nom": "Planche de 10 shots Reposado", "prix": 35.0 },
-    { "nom": "Jägermeister", "prix": 4.0 },
-    { "nom": "Get 27", "prix": 4.0 },
-    { "nom": "Orgasme", "prix": 4.0 },
-    { "nom": "Bailey's", "prix": 4.0 },
-    { "nom": "Vodka sirop", "prix": 3.5 },
-    { "nom": "Vodka Get", "prix": 4.5 },
-    { "nom": "Gin", "prix": 3.5 },
-    { "nom": "Gin Bombay Saphire", "prix": 4.0 },
-    { "nom": "Gin Tanqueray", "prix": 4.0 },
-    { "nom": "Gin LÔNE Local & Artisanal (Aramon FR)", "prix": 4.0 },
-    { "nom": "Gin Hendrick's", "prix": 5.0 },
-    { "nom": "Gin Gunpowder", "prix": 5.0 },
-    { "nom": "Gin Monkey", "prix": 6.0 },
-    { "nom": "Whisky", "prix": 4.0 },    
-    { "nom": "Whisky Jameson", "prix": 4.5 },    
-    { "nom": "Whisky Jack Daniel's", "prix": 4.5 }
+    {
+      "nom": "Rhums Arrangés",
+      "prix": 4.0
+    },
+    {
+      "nom": "Planche de 10 shots Rhum Arrangés",
+      "prix": 35.0
+    },
+    {
+      "nom": "Tequila Blanche",
+      "prix": 3.5
+    },
+    {
+      "nom": "Planche de 10 shots Tequila",
+      "prix": 30.0
+    },
+    {
+      "nom": "Tequila Reposado",
+      "prix": 4.0
+    },
+    {
+      "nom": "Planche de 10 shots Reposado",
+      "prix": 35.0
+    },
+    {
+      "nom": "Jägermeister",
+      "prix": 4.0
+    },
+    {
+      "nom": "Get 27",
+      "prix": 4.0
+    },
+    {
+      "nom": "Orgasme",
+      "prix": 4.0
+    },
+    {
+      "nom": "Bailey's",
+      "prix": 4.0
+    },
+    {
+      "nom": "Vodka sirop",
+      "prix": 3.5
+    },
+    {
+      "nom": "Vodka Get",
+      "prix": 4.5
+    },
+    {
+      "nom": "Gin",
+      "prix": 3.5
+    },
+    {
+      "nom": "Gin Bombay Saphire",
+      "prix": 4.0
+    },
+    {
+      "nom": "Gin Tanqueray",
+      "prix": 4.0
+    },
+    {
+      "nom": "Gin LÔNE Local & Artisanal",
+      "prix": 4.0,
+      "description": "Aramon FR"
+    },
+    {
+      "nom": "Gin Hendrick's",
+      "prix": 5.0
+    },
+    {
+      "nom": "Gin Gunpowder",
+      "prix": 5.0
+    },
+    {
+      "nom": "Gin Monkey",
+      "prix": 6.0
+    },
+    {
+      "nom": "Whisky",
+      "prix": 4.0
+    },
+    {
+      "nom": "Whisky Jameson",
+      "prix": 4.5
+    },
+    {
+      "nom": "Whisky Jack Daniel's",
+      "prix": 4.5
+    }
   ],
   "Softs": {
     "Les Sirops (30cl)": [
-      { "nom": "Pac", "prix": 3.0 },
-      { "nom": "Menthe verte", "prix": 3.0 },
-      { "nom": "Grenadine", "prix": 3.0 },
-      { "nom": "Fraise", "prix": 3.0 },
-      { "nom": "Pêche", "prix": 3.0 },
-      { "nom": "Citron", "prix": 3.0 },
-      { "nom": "Fun blue", "prix": 3.0 },
-      { "nom": "Violette", "prix": 3.0 },
-      { "nom": "Kiwi", "prix": 3.0 },
-      { "nom": "Orange", "prix": 3.0 },
-      { "nom": "Cassis", "prix": 3.0 },
-      { "nom": "Orgeat", "prix": 3.0 }
+      {
+        "nom": "Pac",
+        "prix": 3.0
+      },
+      {
+        "nom": "Menthe verte",
+        "prix": 3.0
+      },
+      {
+        "nom": "Grenadine",
+        "prix": 3.0
+      },
+      {
+        "nom": "Fraise",
+        "prix": 3.0,
+        "prixHP": 2
+      },
+      {
+        "nom": "Pêche",
+        "prix": 3.0
+      },
+      {
+        "nom": "Citron",
+        "prix": 3.0
+      },
+      {
+        "nom": "Fun blue",
+        "prix": 3.0
+      },
+      {
+        "nom": "Violette",
+        "prix": 3.0
+      },
+      {
+        "nom": "Kiwi",
+        "prix": 3.0
+      },
+      {
+        "nom": "Orange",
+        "prix": 3.0
+      },
+      {
+        "nom": "Cassis",
+        "prix": 3.0
+      },
+      {
+        "nom": "Orgeat",
+        "prix": 3.0
+      }
     ],
-
     "Les Jus de Fruits (25cl)": [
-      { "nom": "Abricot Bio", "prix": 4.7 },
-      { "nom": "Pomme Bio", "prix": 4.7 },
-      { "nom": "Ananas Bio", "prix": 4.7 }
+      {
+        "nom": "Abricot Bio",
+        "prix": 4.7
+      },
+      {
+        "nom": "Pomme Bio",
+        "prix": 4.7
+      },
+      {
+        "nom": "Ananas Bio",
+        "prix": 4.7
+      }
     ],
-
     "Les Sodas": [
-      { "nom": "Coca / Coca zéro (33cl)", "prix": 4.2 },
-      { "nom": "Limonade / Perrier (33cl)", "prix": 4.2 },
-      { "nom": "Fuze Tea / Orangina (25cl)", "prix": 4.2 },
-      { "nom": "Schweppes (25cl)", "prix": 4.2 },
-      { "nom": "+ Sirop", "prix": 0.50 },
-      { "nom": "Gambetta Limonade", "prix": 5.0 },
-      { "nom": "Red Bull (25cl)", "prix": 4.5 },
-      { "nom": "Ginger Beer Bundaberg (37,5cl)", "prix": 6.0 },
-      { "nom": "Ginger Ale Fever Tree (20cl)", "prix": 4.5 }
+      {
+        "nom": "Coca / Coca zéro",
+        "prix": 4.2,
+        "description": "33cl"
+      },
+      {
+        "nom": "Limonade / Perrier",
+        "prix": 4.2,
+        "description": "33cl"
+      },
+      {
+        "nom": "Fuze Tea / Orangina",
+        "prix": 4.2,
+        "description": "25cl"
+      },
+      {
+        "nom": "Schweppes",
+        "prix": 4.2,
+        "description": "25cl"
+      },
+      {
+        "nom": "+ Sirop",
+        "prix": 0.5
+      },
+      {
+        "nom": "Gambetta Limonade",
+        "prix": 5.0
+      },
+      {
+        "nom": "Red Bull",
+        "prix": 4.5,
+        "description": "25cl"
+      },
+      {
+        "nom": "Ginger Beer Bundaberg",
+        "prix": 6.0,
+        "description": "37,5cl"
+      },
+      {
+        "nom": "Ginger Ale Fever Tree",
+        "prix": 4.5,
+        "description": "20cl"
+      }
     ],
     "Les Chauds": [
-      { "nom": "Café", "prix": 1.5 },
-      { "nom": "Thé Earl Grey", "prix": 4.5 },
-      { "nom": "Infusion Rooibos", "prix": 4.5 },
-      { "nom": "Grog", "prix": 5.5 }
+      {
+        "nom": "Café",
+        "prix": 1.5
+      },
+      {
+        "nom": "Thé Earl Grey",
+        "prix": 4.5
+      },
+      {
+        "nom": "Infusion Rooibos",
+        "prix": 4.5
+      },
+      {
+        "nom": "Grog",
+        "prix": 5.5
+      }
     ]
   },
   "Les Grignotages": [
-    { "nom": "(servis avec des toasts grillés)"},
-    { "nom": "Saucisson (90g) (Ficelle de l'Aveyron)", "prix": 7.0 },
-    { "nom": "Tartinable Tapenade (100g) (BIO Artisanal & Local)", "prix": 7.0 },
-    { "nom": "Tartinable Houmous (100g) (BIO Artisanal & Local)", "prix": 7.0 },
-    { "nom": "Tartinable Patate Douce, Lentille Corail (100g) (BIO Artisanal & Local)", "prix": 7.0 },
-    { "nom": "Tartinable Carotte, Ras-el-Hanout (100g) (BIO Artisanal & Local)", "prix": 7.0 }
+    {
+      "nom": "",
+      "description": "servis avec des toasts grillés"
+    },
+    {
+      "nom": "Saucisson (90g)",
+      "prix": 7.0,
+      "description": "Ficelle de l'Aveyron"
+    },
+    {
+      "nom": "Tartinable Tapenade (100g)",
+      "prix": 7.0,
+      "description": "BIO Artisanal & Local"
+    },
+    {
+      "nom": "Tartinable Houmous (100g)",
+      "prix": 7.0,
+      "description": "BIO Artisanal & Local"
+    },
+    {
+      "nom": "Tartinable Patate Douce, Lentille Corail (100g)",
+      "prix": 7.0,
+      "description": "BIO Artisanal & Local"
+    },
+    {
+      "nom": "Tartinable Carotte, Ras-el-Hanout (100g)",
+      "prix": 7.0,
+      "description": "BIO Artisanal & Local"
+    }
   ]
 }
