@@ -12,15 +12,27 @@ export function getHappyHourState() {
   nextStart.setHours(18, 30, 0, 0);
 
   if (now >= start && now < end) {
-    const minutesLeft = Math.floor((end - now) / 60000);
-    return { state: "now", text: `🟢 Il reste ${minutesLeft}min avant la fin de l'Happy Hour` };
+    const msLeft = end - now;
+    const minutesLeft = Math.floor(msLeft / 60000);
+    const secondsLeft = Math.floor((msLeft % 60000) / 1000);
+    return {
+      state: "now",
+      text: `🟢 Il reste ${minutesLeft}min ${secondsLeft}s avant la fin de l'Happy Hour`,
+    };
   } else if (now >= end && now.getHours() < 2 || now.getHours() >= 2 && now < start) {
     const msToStart = nextStart - now;
     const h = Math.floor(msToStart / (1000 * 60 * 60));
     const m = Math.floor((msToStart % (1000 * 60 * 60)) / (1000 * 60));
-    return { state: "soon", text: `🟡 Il reste ${h}h ${m}min avant l'Happy Hour` };
+    const s = Math.floor((msToStart % (1000 * 60)) / 1000);
+    return {
+      state: "soon",
+      text: `🟡 Il reste ${h}h ${m}min ${s}s avant l'Happy Hour`,
+    };
   } else {
-    return { state: "late", text: "🔴 Trop tard, reviens demain" };
+    return {
+      state: "late",
+      text: "🔴 Trop tard, reviens demain, 18h30 - 20h30",
+    };
   }
 }
 
