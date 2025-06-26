@@ -308,14 +308,14 @@
       "prixHP": 7.5
     },
     {
-      "nom": "Abricoool",
+      "nom": "Abricoool - Sans Alcool",
       "prix": 5.50,
-      "description": "jus Abricot BIO, jus & tranche de Citron vert, Cannelle - Sans Alcool"
+      "description": "jus Abricot BIO, jus & tranche de Citron vert, Cannelle"
     },
     {
-      "nom": "Virgin Mule",
+      "nom": "Virgin Mule - Sans Alcool"
       "prix": 5.50,
-      "description": "Ginger Ale, jus & tranche de Citron vert, Cannelle - Sans Alcool"
+      "description": "Ginger Ale, jus & tranche de Citron vert, Cannelle"
     }
   ],
   "Les Rhums": {
