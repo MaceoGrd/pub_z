@@ -35,9 +35,37 @@ export default function Footer() {
         {/* Infos et signature ❤️ */}
         <div className="text-center md:text-right md:w-1/2">
           <p className="text-lg mb-2">📍 58 Rue de la Bonneterie, 84000 Avignon</p>
-          <p className="text-sm text-zinc-400 italic">
+          <p className="text-sm text-zinc-400 italic mb-4">
             Made with ❤️ by Maceo
           </p>
+
+          {/* 🔗 Réseaux sociaux avec icônes */}
+          <div className="flex justify-center md:justify-end gap-4">
+            <a
+              href="https://www.facebook.com/pubz.avignon"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <img
+                src="/facebook.png"
+                alt="Facebook"
+                className="w-10 h-10"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/pub_z_avignon/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <img
+                src="/instagram.png"
+                alt="Instagram"
+                className="w-10 h-10"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
