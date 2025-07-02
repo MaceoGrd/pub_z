@@ -308,14 +308,14 @@
       "prixHP": 7.5
     },
     {
-      "nom": "Mocktail Abricot",
+      "nom": "Abricoool - Sans Alcool",
       "prix": 6.0,
-      "description": "Sans Alcool"
+      "description": "jus Abricot BIO, jus & tranche de Citron vert, Cannelle"
     },
     {
-      "nom": "Mocktail Ananas",
+      "nom": "Virgin Mule - Sans Alcool",
       "prix": 6.0,
-      "description": "Sans Alcool"
+      "description": "Ginger Ale, jus & tranche de Citron vert, Cannelle"
     }
   ],
   "Les Rhums": {
