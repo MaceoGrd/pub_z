@@ -310,12 +310,22 @@
     {
       "nom": "Abricoool - Sans Alcool",
       "prix": 6.0,
-      "description": "jus Abricot BIO, jus & tranche de Citron vert, Cannelle"
+      "description": "jus Abricot BIO, jus & tranche de Citron vert, Gingembre"
     },
     {
-      "nom": "Virgin Mule - Sans Alcool",
+      "nom": "Fraisilic - Sans Alcool",
+      "prix": "6.0",
+      "description": "jus Fraise, jus & tranche de Citron jaune, sirop Basilic"
+    },
+    {
+      "nom": "Virgin Mule Hibiscus - Sans Alcool",
       "prix": 6.0,
-      "description": "Ginger Ale, jus & tranche de Citron vert, Cannelle"
+      "description": "Ginger Ale, jus & tranche de Citron vert, sirop d'Hibiscus"
+    },
+    {
+      "nom": "Virgin Mule Sureau - Sans Alcool",
+      "prix": 6.0,
+      "description": "Ginger Ale, jus & tranche de Citron vert, sirop de Sureau"
     }
   ],
   "Les Rhums": {
