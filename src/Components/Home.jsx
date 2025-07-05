@@ -5,8 +5,8 @@ import horaires from "../data/horaires.json";
 
 export default function Home() {
   const images = [
-    "/1.png",
-    "/4.jpg",
+    "/1.jpg",
+    "/4.png",
     "/2.png",
     "/5.jpg",
     "/6.jpg",
