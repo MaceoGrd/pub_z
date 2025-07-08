@@ -6,8 +6,8 @@ import horaires from "../data/horaires.json";
 export default function Home() {
   const images = [
     "/1.jpg",
-    "/4.png",
     "/2.png",
+    "/4.jpg",
     "/5.jpg",
     "/6.jpg",
     "/7.jpg",
@@ -44,14 +44,14 @@ export default function Home() {
       </div>
 
       {/* Slider */}
-      <div className="w-full max-w-4xl mt-16 mb-10 rounded-lg overflow-hidden shadow-md">       
-         <Slider {...sliderSettings}>
+      <div className="w-full max-w-4xl mt-16 mb-10 rounded-lg overflow-hidden shadow-md">
+        <Slider {...sliderSettings}>
           {images.map((src, index) => (
-            <div key={index}>
+            <div key={index} className="aspect-square w-full">
               <img 
                 src={src} 
                 alt={`Slide ${index + 1}`} 
-                className="w-full h-auto object-cover"
+                className="w-full h-full object-cover object-center"
               />
             </div>
           ))}

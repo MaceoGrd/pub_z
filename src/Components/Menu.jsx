@@ -16,7 +16,7 @@ export default function Menu() {
 
   return (
     <div className="p-4 max-w-5xl mx-auto">
-      <p className="text-center text-sm text-zinc-400 italic mb-4">
+      <p className="text-center text-base text-zinc-300 italic mb-4">
         Service au comptoir uniquement, merci de commander directement au bar.
       </p>
 
