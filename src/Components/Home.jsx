@@ -1,9 +1,10 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import horaires from "../data/horaires.json";
+import { useI18n } from "../i18n/I18nContext";
 
 export default function Home() {
+  const { t } = useI18n();
   const images = [
     "/1.jpg",
     "/2.png",
@@ -31,16 +32,16 @@ export default function Home() {
       {/* Bannière */}
       <img 
         src="/bannière.png" 
-        alt="Bannière du Pub Z" 
+        alt={t("home.bannerAlt")}
         className="w-full max-w-6xl h-auto rounded-2xl shadow-lg mb-10" 
       />
 
       {/* Infos */}
       <div className="text-center space-y-4 max-w-2xl">
-        <p className="text-2xl font-normal text-zinc-300">Rhumerie sonore depuis 1987</p>
-        <p className="text-2xl font-normal text-zinc-300">Musique, expos & cultures alternatives</p>
-        <p className="text-2xl font-semibold text-zinc-300">Happy Hour 18h30 - 20h30</p>
-        <p className="text-lg font-normal text-zinc-400">Ouvert du Mardi au Samedi de 17h à 1h30</p>
+        <p className="text-2xl font-normal text-zinc-300">{t("home.tagline1")}</p>
+        <p className="text-2xl font-normal text-zinc-300">{t("home.tagline2")}</p>
+        <p className="text-2xl font-semibold text-zinc-300">{t("home.tagline3")}</p>
+        <p className="text-lg font-normal text-zinc-400">{t("home.tagline4")}</p>
       </div>
 
       {/* Slider */}
@@ -50,7 +51,7 @@ export default function Home() {
             <div key={index} className="aspect-square w-full">
               <img 
                 src={src} 
-                alt={`Slide ${index + 1}`} 
+                alt={t("home.slideAlt", { index: index + 1 })}
                 className="w-full h-full object-cover object-center"
               />
             </div>

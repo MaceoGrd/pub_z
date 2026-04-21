@@ -1,4 +1,4 @@
-export function getHappyHourState() {
+export function getHappyHourState(t) {
   const now = new Date();
 
   // Heure de début et de fin d'Happy Hour pour aujourd'hui
@@ -20,7 +20,7 @@ export function getHappyHourState() {
     const s = Math.floor((msLeft % (1000 * 60)) / 1000);
     return {
       state: "now",
-      text: `🟢 Happy Hour pendant encore ${h}h ${m}min ${s}s !`,
+      text: t("happyHour.now", { h, m, s }),
     };
   }
 
@@ -35,14 +35,14 @@ export function getHappyHourState() {
     const s = Math.floor((msToStart % (1000 * 60)) / 1000);
     return {
       state: "soon",
-      text: `🟡 Happy Hour dans ${h}h ${m}min ${s}s`,
+      text: t("happyHour.soon", { h, m, s }),
     };
   }
 
   // Cas 3 : entre 20h30 et 08h00 → Trop tard
   return {
     state: "late",
-    text: "🔴 Trop tard... Reviens demain entre 18h30 et 20h30 😴",
+    text: t("happyHour.late"),
   };
 }
 

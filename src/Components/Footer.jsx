@@ -1,6 +1,6 @@
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import { Icon } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
+import { useI18n } from "../i18n/I18nContext";
 
 import L from 'leaflet';
 delete L.Icon.Default.prototype._getIconUrl;
@@ -11,6 +11,8 @@ L.Icon.Default.mergeOptions({
 });
 
 export default function Footer() {
+  const { t } = useI18n();
+
   return (
     <footer className="bg-zinc-900 text-white p-10">
       <div className="flex flex-col md:flex-row justify-between items-center gap-6">
@@ -27,16 +29,16 @@ export default function Footer() {
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
             <Marker position={[43.94685363769531, 4.81054162979126]}>
-              <Popup>Pub Z</Popup>
+              <Popup>{t("footer.marker")}</Popup>
             </Marker>
           </MapContainer>
         </div>
 
         {/* Infos et signature ❤️ */}
         <div className="text-center md:text-right md:w-1/2">
-          <p className="text-lg mb-2">📍 58 Rue de la Bonneterie, 84000 Avignon</p>
+          <p className="text-lg mb-2">📍 {t("footer.address")}</p>
           <p className="text-sm text-zinc-400 italic mb-4">
-            Made with ❤️ by Maceo
+            {t("footer.madeBy")}
           </p>
 
           {/* 🔗 Réseaux sociaux avec icônes */}

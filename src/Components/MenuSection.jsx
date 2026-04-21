@@ -6,12 +6,14 @@ const formatPrice = (price) => {
   return Number.isInteger(price) ? `${price}€` : `${price.toFixed(2)}€`;
 };
 
-function SubSection({ subTitle, items, happyHourState }) {
+function SubSection({ subTitle, items, happyHourState, translateMenuLabel }) {
   const isHappyHour = happyHourState?.state === "now";
 
   return (
     <div className="mb-4">
-      <h4 className="text-lg font-semibold underline text-zinc-300 mb-2">{subTitle}</h4>
+      <h4 className="text-lg font-semibold underline text-zinc-300 mb-2">
+        {translateMenuLabel(subTitle)}
+      </h4>
       <ul className="space-y-2">
         {items.map((item, i) => {
           const hasPromo = item.prixHP !== undefined;
@@ -108,7 +110,12 @@ function SubSection({ subTitle, items, happyHourState }) {
   );
 }
 
-export default function MenuSection({ title, items, happyHourState }) {
+export default function MenuSection({
+  title,
+  items,
+  happyHourState,
+  translateMenuLabel,
+}) {
   const [isOpen, setIsOpen] = useState(false);
   const isSubCategory = typeof items === "object" && !Array.isArray(items);
 
@@ -137,6 +144,7 @@ export default function MenuSection({ title, items, happyHourState }) {
                   subTitle={subTitle}
                   items={subItems}
                   happyHourState={happyHourState}
+                  translateMenuLabel={translateMenuLabel}
                 />
               ))
             ) : (
@@ -144,6 +152,7 @@ export default function MenuSection({ title, items, happyHourState }) {
                 subTitle=""
                 items={items}
                 happyHourState={happyHourState}
+                translateMenuLabel={translateMenuLabel}
               />
             )}
           </motion.div>
