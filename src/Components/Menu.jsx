@@ -1,22 +1,20 @@
-import { useEffect, useState } from "react";
-import menuData from "../data/menu_bar.json";
+import { useEffect, useMemo, useState } from "react";
+import { getMenuByLocale } from "../data/getMenuByLocale";
 import MenuSection from "./MenuSection";
 import HappyHourBanner, { getHappyHourState } from "./HappyHourBanner";
 import { useI18n } from "../i18n/I18nContext";
-import { menuLabelKeyByFrenchLabel } from "../i18n/translations";
 
 export default function Menu() {
-  const { t } = useI18n();
-  const [hh, setHh] = useState(getHappyHourState(t));
-  const translateMenuLabel = (label) =>
-    t(menuLabelKeyByFrenchLabel[label] ?? label);
+  const { language, t } = useI18n();
+  const menuData = useMemo(() => getMenuByLocale(language), [language]);
+  const [hh, setHh] = useState(() => getHappyHourState(t));
 
   useEffect(() => {
     const interval = setInterval(() => {
       setHh(getHappyHourState(t));
-    }, 1000); // mise à jour chaque seconde
+    }, 1000);
 
-    return () => clearInterval(interval); // propre
+    return () => clearInterval(interval);
   }, [t]);
 
   return (
@@ -31,13 +29,12 @@ export default function Menu() {
         {t("menu.title")}
       </h1>
 
-      {Object.entries(menuData).map(([category, items], i) => (
+      {Object.entries(menuData).map(([category, items]) => (
         <MenuSection
-          key={i}
-          title={translateMenuLabel(category)}
+          key={`${language}-${category}`}
+          title={category}
           items={items}
           happyHourState={hh}
-          translateMenuLabel={translateMenuLabel}
         />
       ))}
     </div>

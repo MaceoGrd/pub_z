@@ -6,14 +6,21 @@ const formatPrice = (price) => {
   return Number.isInteger(price) ? `${price}€` : `${price.toFixed(2)}€`;
 };
 
-function SubSection({ subTitle, items, happyHourState, translateMenuLabel }) {
+const isMenuItemsArray = (value) => Array.isArray(value);
+
+const isMenuSubcategories = (value) =>
+  typeof value === "object" && value !== null && !Array.isArray(value);
+
+function SubSection({ subTitle, items, happyHourState }) {
   const isHappyHour = happyHourState?.state === "now";
 
   return (
     <div className="mb-4">
-      <h4 className="text-lg font-semibold underline text-zinc-300 mb-2">
-        {translateMenuLabel(subTitle)}
-      </h4>
+      {subTitle ? (
+        <h4 className="text-lg font-semibold underline text-zinc-300 mb-2">
+          {subTitle}
+        </h4>
+      ) : null}
       <ul className="space-y-2">
         {items.map((item, i) => {
           const hasPromo = item.prixHP !== undefined;
@@ -23,7 +30,6 @@ function SubSection({ subTitle, items, happyHourState, translateMenuLabel }) {
               key={i}
               className="border-b border-dashed border-zinc-700 pb-1 flex flex-col sm:flex-row sm:justify-between text-sm text-zinc-100"
             >
-              {/* Nom + description côte à côte */}
               <div className="flex flex-col sm:flex-row sm:items-center sm:gap-2">
                 <span className="font-medium">{item.nom}</span>
                 {item.description && (
@@ -33,9 +39,7 @@ function SubSection({ subTitle, items, happyHourState, translateMenuLabel }) {
                 )}
               </div>
 
-              {/* Prix ou formats */}
               <div className="text-right text-xs sm:text-sm space-x-2">
-                {/* Cas avec formats */}
                 {item.formats ? (
                   <span>
                     {Object.entries(item.formats).map(([size, price], j, arr) => {
@@ -110,14 +114,9 @@ function SubSection({ subTitle, items, happyHourState, translateMenuLabel }) {
   );
 }
 
-export default function MenuSection({
-  title,
-  items,
-  happyHourState,
-  translateMenuLabel,
-}) {
+export default function MenuSection({ title, items, happyHourState }) {
   const [isOpen, setIsOpen] = useState(false);
-  const isSubCategory = typeof items === "object" && !Array.isArray(items);
+  const hasSubcategories = isMenuSubcategories(items);
 
   return (
     <section className="mb-8">
@@ -137,22 +136,20 @@ export default function MenuSection({
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.4 }}
           >
-            {isSubCategory ? (
+            {hasSubcategories ? (
               Object.entries(items).map(([subTitle, subItems], i) => (
                 <SubSection
                   key={i}
                   subTitle={subTitle}
-                  items={subItems}
+                  items={isMenuItemsArray(subItems) ? subItems : []}
                   happyHourState={happyHourState}
-                  translateMenuLabel={translateMenuLabel}
                 />
               ))
             ) : (
               <SubSection
                 subTitle=""
-                items={items}
+                items={isMenuItemsArray(items) ? items : []}
                 happyHourState={happyHourState}
-                translateMenuLabel={translateMenuLabel}
               />
             )}
           </motion.div>
