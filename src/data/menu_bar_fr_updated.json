@@ -1,91 +1,91 @@
 {
   "Happy Hour 18h30 - 20h30": [
     {
-      "nom": "La Pinte de Krombacher",
+      "nom": "La Pinte de Zeller Hell",
       "prix": 6.5,
-      "prixHP": 5
+      "prixHP": 5.5
     },
     {
       "nom": "Le Pastis Ricard",
       "prix": 2.8,
-      "prixHP": 2
+      "prixHP": 2.5
     },
     {
       "nom": "Le Pastis Casanis",
       "prix": 2.8,
-      "prixHP": 2
+      "prixHP": 2.5
     },
     {
       "nom": "Spritz",
-      "prix": 10.0,
-      "prixHP": 7.5
+      "prix": 10,
+      "prixHP": 8
     },
     {
       "nom": "Gin Hibiscus",
-      "prix": 10.0,
-      "prixHP": 7.5
+      "prix": 10,
+      "prixHP": 8
     },
     {
       "nom": "Moscow Mule",
-      "prix": 10.0,
-      "prixHP": 7.5
+      "prix": 10,
+      "prixHP": 8
     },
     {
       "nom": "London Mule",
-      "prix": 10.0,
-      "prixHP": 7.5
+      "prix": 10,
+      "prixHP": 8
     },
     {
       "nom": "Caribbean Mule",
-      "prix": 10.0,
-      "prixHP": 7.5
+      "prix": 10,
+      "prixHP": 8
     },
     {
       "nom": "Cuba Libre",
       "prix": 8.5,
-      "prixHP": 7.5
+      "prixHP": 8
     },
     {
       "nom": "Jagger Bomb",
       "prix": 8.5,
-      "prixHP": 7.5
+      "prixHP": 8
     },
     {
       "nom": "Gin Fizz",
       "prix": 9,
-      "prixHP": 7.5
+      "prixHP": 8
     },
     {
       "nom": "Tequila Sunrise",
       "prix": 8.5,
-      "prixHP": 7.5
+      "prixHP": 8
     },
     {
       "nom": "Daiquiri",
       "prix": 9,
-      "prixHP": 7.5
+      "prixHP": 8
     },
     {
       "nom": "Bloody Mary",
       "prix": 10,
-      "prixHP": 7.5
+      "prixHP": 8
     },
     {
       "nom": "Le Sirop de Fraise a l'Eau",
       "prix": 3,
-      "prixHP": 2
+      "prixHP": 2.5
     }
   ],
   "Les Bières": {
     "Bières Pression": [
       {
-        "nom": "Krombacher Blonde",
+        "nom": "Zeller Hell Blonde",
         "formats": {
           "25cl": 3.5,
           "50cl": 6.5
         },
         "prixHPFormats": {
-          "50cl": 5
+          "50cl": 5.5
         }
       },
       {
@@ -148,7 +148,7 @@
     "Bières Bouteille": [
       {
         "nom": "Grimbergen",
-        "prix": 4.0,
+        "prix": 4,
         "description": "25cl"
       },
       {
@@ -163,12 +163,12 @@
       },
       {
         "nom": "Desperados",
-        "prix": 6.0,
+        "prix": 6,
         "description": "33cl"
       },
       {
         "nom": "Punk IPA",
-        "prix": 6.0,
+        "prix": 6,
         "description": "33cl"
       },
       {
@@ -180,7 +180,7 @@
     "Bières Sans Alcool": [
       {
         "nom": "Punk IPA AF 0,5%",
-        "prix": 5.0,
+        "prix": 5,
         "description": "25cl"
       },
       {
@@ -208,16 +208,16 @@
     },
     {
       "nom": "Apérol",
-      "prix": 4.0,
+      "prix": 4,
       "description": "4cl"
     },
     {
       "nom": "Blanc Cass'",
-      "prix": 4.0
+      "prix": 4
     },
     {
       "nom": "Puputa",
-      "prix": 4.0,
+      "prix": 4,
       "description": "Rosé Limé XL"
     }
   ],
@@ -225,7 +225,7 @@
     {
       "nom": "Chamasutra Rouge",
       "formats": {
-        "btle 75cl": 22.0,
+        "btle 75cl": 22,
         "12,5cl": 3.5
       },
       "description": "Cellier des chartreux - IGP Gard"
@@ -233,7 +233,7 @@
     {
       "nom": "Je donne ma langue au chat Blanc",
       "formats": {
-        "btle 75cl": 22.0,
+        "btle 75cl": 22,
         "12,5cl": 3.5
       },
       "description": "Cellier des chartreux - IGP Gard"
@@ -241,7 +241,7 @@
     {
       "nom": "La nuit tous les chats sont gris Rosé",
       "formats": {
-        "btle 75cl": 22.0,
+        "btle 75cl": 22,
         "12,5cl": 3.5
       },
       "description": "Cellier des chartreux - IGP Gard"
@@ -252,77 +252,77 @@
     },
     {
       "nom": "Prosecco",
-      "prix": 5.0
+      "prix": 5
     },
     {
       "nom": "Puputa",
-      "prix": 4.0,
+      "prix": 4,
       "description": "Rosé Limé XL"
     },
     {
       "nom": "Champagne Bouteille",
-      "prix": 65.0
+      "prix": 65
     }
   ],
   "Les Cocktails & Les Mocktails": [
     {
       "nom": "Spritz",
-      "prix": 10.0,
-      "prixHP": 7.5
+      "prix": 10,
+      "prixHP": 8
     },
     {
       "nom": "Gin Hibiscus",
-      "prix": 10.0,
-      "prixHP": 7.5
+      "prix": 10,
+      "prixHP": 8
     },
     {
       "nom": "Moscow Mule",
-      "prix": 10.0,
-      "prixHP": 7.5
+      "prix": 10,
+      "prixHP": 8
     },
     {
       "nom": "London Mule",
-      "prix": 10.0,
-      "prixHP": 7.5
+      "prix": 10,
+      "prixHP": 8
     },
     {
       "nom": "Caribbean Mule",
-      "prix": 10.0,
-      "prixHP": 7.5
+      "prix": 10,
+      "prixHP": 8
     },
     {
       "nom": "Cuba Libre",
       "prix": 8.5,
-      "prixHP": 7.5
+      "prixHP": 8
     },
     {
       "nom": "Jagger Bomb",
       "prix": 8.5,
-      "prixHP": 7.5
+      "prixHP": 8
     },
     {
       "nom": "Gin Fizz",
-      "prix": 9.0,
-      "prixHP": 7.5
+      "prix": 9,
+      "prixHP": 8
     },
     {
       "nom": "Tequila Sunrise",
       "prix": 8.5,
-      "prixHP": 7.5
+      "prixHP": 8
     },
     {
       "nom": "Daiquiri",
-      "prix": 9.0,
-      "prixHP": 7.5
+      "prix": 9,
+      "prixHP": 8
     },
     {
       "nom": "Bloody Mary",
-      "prix": 10.0,
-      "prixHP": 7.5
+      "prix": 10,
+      "prixHP": 8
     },
     {
       "nom": "Abricoool - Sans Alcool",
-      "prix": 6.0,
+      "prix": 6,
       "description": "jus Abricot BIO, jus & tranche de Citron vert, sirop de Gingembre"
     },
     {
@@ -332,12 +332,12 @@
     },
     {
       "nom": "Virgin Mule Hibiscus - Sans Alcool",
-      "prix": 6.0,
+      "prix": 6,
       "description": "Ginger Ale, jus & tranche de Citron vert, sirop d'Hibiscus"
     },
     {
       "nom": "Virgin Mule Sureau - Sans Alcool",
-      "prix": 6.0,
+      "prix": 6,
       "description": "Ginger Ale, jus & tranche de Citron vert, sirop de Sureau"
     }
   ],
@@ -360,92 +360,92 @@
       },
       {
         "nom": "Bouteille de Punch 1L",
-        "prix": 38.0
+        "prix": 38
       }
     ],
     "Rhums Arrangés": [
       {
         "nom": "Le Gwada",
         "formats": {
-          "3cl": 4.0,
-          "5cl": 6.0
+          "3cl": 4,
+          "5cl": 6
         },
         "description": "Damoiseau, bois bandé, cannelle"
       },
       {
         "nom": "Le Madinina",
         "formats": {
-          "3cl": 4.0,
-          "5cl": 6.0
+          "3cl": 4,
+          "5cl": 6
         },
         "description": "HSE, banane, baies de la passion, gingembre"
       },
       {
         "nom": "Le Bourbon",
         "formats": {
-          "3cl": 4.0,
-          "5cl": 6.0
+          "3cl": 4,
+          "5cl": 6
         },
         "description": "Charette, combava, vanille"
       },
       {
         "nom": "Piment",
         "formats": {
-          "3cl": 4.0,
-          "5cl": 6.0
+          "3cl": 4,
+          "5cl": 6
         },
         "description": "HSE, piment oiseau, miel"
       },
       {
         "nom": "Planche de 10 shots (3cl)",
-        "prix": 35.0,
+        "prix": 35,
         "description": "Panachage Possible"
       }
     ],
     "Rhums Vieux (4cl)": [
       {
         "nom": "Saint James",
-        "prix": 6.0,
+        "prix": 6,
         "description": "Martinique"
       },
       {
         "nom": "Clément V.O",
-        "prix": 7.0,
+        "prix": 7,
         "description": "Martinique"
       },
       {
         "nom": "Diplomatico",
-        "prix": 8.0,
+        "prix": 8,
         "description": "Venezuela"
       },
       {
         "nom": "Bumbu",
-        "prix": 8.0,
+        "prix": 8,
         "description": "Barbades"
       },
       {
         "nom": "Angostura 7 ans",
-        "prix": 9.0,
+        "prix": 9,
         "description": "Trinidad & Tobago"
       },
       {
         "nom": "Santa Teresa 1796",
-        "prix": 10.0,
+        "prix": 10,
         "description": "Venezuela"
       },
       {
         "nom": "Ryoma",
-        "prix": 10.0,
+        "prix": 10,
         "description": "Japon"
       },
       {
         "nom": "Millonario 15 ans",
-        "prix": 10.0,
+        "prix": 10,
         "description": "Perou"
       },
       {
         "nom": "Plantation Xo",
-        "prix": 12.0,
+        "prix": 12,
         "description": "Barbades"
       },
       {
@@ -484,7 +484,7 @@
       },
       {
         "nom": "Caribbean Mule",
-        "prix": 10.0
+        "prix": 10
       }
     ]
   },
@@ -492,8 +492,8 @@
     {
       "nom": "Whisky Classique",
       "formats": {
-        "shot": 4.0,
-        "prix": 6.0
+        "shot": 4,
+        "prix": 6
       }
     },
     {
@@ -513,19 +513,19 @@
     },
     {
       "nom": "Talisker",
-      "prix": 8.0
+      "prix": 8
     },
     {
       "nom": "Nikka Days",
-      "prix": 8.0
+      "prix": 8
     },
     {
       "nom": "Nikka Coffey Grain",
-      "prix": 9.0
+      "prix": 9
     },
     {
       "nom": "Lagavulin",
-      "prix": 14.0
+      "prix": 14
     },
     {
       "nom": "Jack Daniel's",
@@ -543,45 +543,45 @@
   "Les Gins": [
     {
       "nom": "Gin Classique",
-      "prix": 6.0,
+      "prix": 6,
       "description": "Angleterre"
     },
     {
       "nom": "Bombay Saphire",
-      "prix": 7.0,
+      "prix": 7,
       "description": "Anglettere"
     },
     {
       "nom": "Tanqueray",
-      "prix": 7.0,
+      "prix": 7,
       "description": "Angleterre"
     },
     {
       "nom": "LÔNE Local & Artisanal",
       "formats": {
-        "shot": 4.0,
-        "prix": 8.0
+        "shot": 4,
+        "prix": 8
       },
       "description": "Aramon FR"
     },
     {
       "nom": "Hendricks",
-      "prix": 8.0,
+      "prix": 8,
       "description": "Écosse"
     },
     {
       "nom": "Gunpowder",
       "formats": {
-        "shot": 5.0,
-        "prix": 8.0
+        "shot": 5,
+        "prix": 8
       },
       "description": "Irlande"
     },
     {
       "nom": "Monkey 47",
       "formats": {
-        "shot": 6.0,
-        "prix": 10.0
+        "shot": 6,
+        "prix": 10
       },
       "description": "Allemagne"
     },
@@ -594,22 +594,22 @@
     },
     {
       "nom": "London Mule",
-      "prix": 10.0
+      "prix": 10
     }
   ],
   "Les Vodkas & Les Téquilas": {
     "Les Vodkas": [
       {
         "nom": "Vodka Glace",
-        "prix": 6.0
+        "prix": 6
       },
       {
         "nom": "Vodka Pomme BIO",
-        "prix": 10.0
+        "prix": 10
       },
       {
         "nom": "Moscow Mule",
-        "prix": 10.0
+        "prix": 10
       },
       {
         "nom": "+ Soft",
@@ -652,15 +652,15 @@
       },
       {
         "nom": "Shot Tequila Reposado Sel Citron",
-        "prix": 4.0
+        "prix": 4
       },
       {
         "nom": "Planche de 10 shots Tequila blanche",
-        "prix": 30.0
+        "prix": 30
       },
       {
         "nom": "Planche de 10 shots Reposado",
-        "prix": 35.0
+        "prix": 35
       }
     ]
   },
@@ -671,7 +671,7 @@
     },
     {
       "nom": "Jägermeister",
-      "prix": 6.0
+      "prix": 6
     },
     {
       "nom": "Bailey’s",
@@ -679,25 +679,25 @@
     },
     {
       "nom": "Cognac V.S.O.P",
-      "prix": 9.0
+      "prix": 9
     },
     {
       "nom": "Calva V.S.O.P",
-      "prix": 9.0
+      "prix": 9
     },
     {
       "nom": "Poire Williams",
-      "prix": 9.0
+      "prix": 9
     }
   ],
   "Shots (2cl)": [
     {
       "nom": "Rhums Arrangés",
-      "prix": 4.0
+      "prix": 4
     },
     {
       "nom": "Planche de 10 shots Rhum Arrangés",
-      "prix": 35.0
+      "prix": 35
     },
     {
       "nom": "Tequila Blanche",
@@ -705,31 +705,31 @@
     },
     {
       "nom": "Planche de 10 shots Tequila",
-      "prix": 30.0
+      "prix": 30
     },
     {
       "nom": "Tequila Reposado",
-      "prix": 4.0
+      "prix": 4
     },
     {
       "nom": "Planche de 10 shots Reposado",
-      "prix": 35.0
+      "prix": 35
     },
     {
       "nom": "Jägermeister",
-      "prix": 4.0
+      "prix": 4
     },
     {
       "nom": "Get 27",
-      "prix": 4.0
+      "prix": 4
     },
     {
       "nom": "Orgasme",
-      "prix": 4.0
+      "prix": 4
     },
     {
       "nom": "Bailey's",
-      "prix": 4.0
+      "prix": 4
     },
     {
       "nom": "Vodka sirop",
@@ -745,32 +745,32 @@
     },
     {
       "nom": "Gin Bombay Saphire",
-      "prix": 4.0
+      "prix": 4
     },
     {
       "nom": "Gin Tanqueray",
-      "prix": 4.0
+      "prix": 4
     },
     {
       "nom": "Gin LÔNE Local & Artisanal",
-      "prix": 4.0,
+      "prix": 4,
       "description": "Aramon FR"
     },
     {
       "nom": "Gin Hendrick's",
-      "prix": 5.0
+      "prix": 5
     },
     {
       "nom": "Gin Gunpowder",
-      "prix": 5.0
+      "prix": 5
     },
     {
       "nom": "Gin Monkey",
-      "prix": 6.0
+      "prix": 6
     },
     {
       "nom": "Whisky",
-      "prix": 4.0
+      "prix": 4
     },
     {
       "nom": "Whisky Jameson",
@@ -785,52 +785,52 @@
     "Les Sirops (30cl)": [
       {
         "nom": "Pac",
-        "prix": 3.0
+        "prix": 3
       },
       {
         "nom": "Menthe verte",
-        "prix": 3.0
+        "prix": 3
       },
       {
         "nom": "Grenadine",
-        "prix": 3.0
+        "prix": 3
       },
       {
         "nom": "Fraise",
-        "prix": 3.0,
-        "prixHP": 2
+        "prix": 3,
+        "prixHP": 2.5
       },
       {
         "nom": "Pêche",
-        "prix": 3.0
+        "prix": 3
       },
       {
         "nom": "Citron",
-        "prix": 3.0
+        "prix": 3
       },
       {
         "nom": "Fun blue",
-        "prix": 3.0
+        "prix": 3
       },
       {
         "nom": "Violette",
-        "prix": 3.0
+        "prix": 3
       },
       {
         "nom": "Kiwi",
-        "prix": 3.0
+        "prix": 3
       },
       {
         "nom": "Orange",
-        "prix": 3.0
+        "prix": 3
       },
       {
         "nom": "Cassis",
-        "prix": 3.0
+        "prix": 3
       },
       {
         "nom": "Orgeat",
-        "prix": 3.0
+        "prix": 3
       }
     ],
     "Les Jus de Fruits (25cl)": [
@@ -874,7 +874,7 @@
       },
       {
         "nom": "Gambetta Limonade",
-        "prix": 5.0
+        "prix": 5
       },
       {
         "nom": "Red Bull",
@@ -883,7 +883,7 @@
       },
       {
         "nom": "Ginger Beer Bundaberg",
-        "prix": 6.0,
+        "prix": 6,
         "description": "37,5cl"
       },
       {
@@ -918,22 +918,22 @@
     },
     {
       "nom": "Saucisson (90g)",
-      "prix": 7.0,
+      "prix": 7,
       "description": "Ficelle de l'Aveyron"
     },
     {
       "nom": "Tartinable Courgette Olive (100g)",
-      "prix": 7.0,
+      "prix": 7,
       "description": "BIO Artisanal & Local"
     },
     {
       "nom": "Tartinable Houmous (100g)",
-      "prix": 7.0,
+      "prix": 7,
       "description": "BIO Artisanal & Local"
     },
     {
       "nom": "Tartinable Patate Douce, Lentille Corail (100g)",
-      "prix": 7.0,
+      "prix": 7,
       "description": "BIO Artisanal & Local"
     }
   ]
